@@ -1,10 +1,9 @@
-/* HomePage.css */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    background-image: url('tu-imagen-de-fondo.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,7 +21,7 @@
   }
   
   .transparent-button:hover {
-    background-color: rgb(236, 141, 141);
+    background-color: white;
     color: black;
   }
   

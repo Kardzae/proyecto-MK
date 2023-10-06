@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
-import Reinoselector from './Componentes/ReinoSelector'
+import Modo from './Componentes/Modojuego'
 
 function App() {
 
   return (
     <div className="App">
-    <Reinoselector />
+      
+    <Modo />
   </div>
   )
 }
