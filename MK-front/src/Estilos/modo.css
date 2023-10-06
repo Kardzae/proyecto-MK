@@ -1,28 +1,53 @@
-/* HomePage.css */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('tu-imagen-de-fondo.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen de fondo */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+.container-seleccion-juego {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('src/images/fondoMK.png'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen de fondo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
   
-  .transparent-button {
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    padding: 10px 20px;
-    font-size: 18px;
-    margin: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
+.transparent-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
   
-  .transparent-button:hover {
-    background-color: white;
-    color: black;
-  }
+.transparent-button:hover {
+  background-color: white;
+  color: black;
+}  
+
+#torneo-button{
+  background-color: #0074d9;
+  color: white;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  font-size: 16px; 
+  cursor: pointer; 
+  border: none; 
+  outline: none; 
+  margin-right: 10px;
+}
+
+#invasion-button{
+  background-color: #0074d9;
+  color: white;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  font-size: 16px; 
+  cursor: pointer; 
+  border: none; 
+  outline: none; 
+  margin-right: 10px;
+}
+
+
   
