@@ -8,7 +8,7 @@ export const characters = [
     {
       id: 2,
       name: "Scorpion",
-      image:"Scorpion.gif",
+      image:"scorpion.png",
       realm: "Netherrealm"
     },
     {
@@ -17,5 +17,6 @@ export const characters = [
       image:"",
       realm: "Outworld"
     },
+    
     // ...otros reinos
   ];

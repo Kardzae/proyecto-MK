@@ -10,17 +10,16 @@
   }
   
   ul {
+    columns: 3;
     list-style-type: none;
-    padding: 0;
-    display: flex; /* Cambia a un contenedor flexible */
-    justify-content: space-between; /* Espaciado uniforme entre los elementos */
     flex-wrap: wrap; /* Envuelve los elementos en múltiples líneas si es necesario */
   }
   
   li {
     cursor: pointer;
-    padding: 8px;
-    background-color: #b45656;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #d8d8d8;
     margin-bottom: 8px;
     transition: background-color 0.3s ease-in-out;
     flex: 1; /* Distribuye el espacio de manera uniforme */
@@ -28,7 +27,7 @@
   }
   
   li:hover {
-    background-color: #724213;
+    background-color: #EAD7BB;
   }
   
   .selected-reino {
@@ -36,7 +35,11 @@
     color: #ff0000; /* Color de texto seleccionado */
   }
 
-  img {
-    width: 450px;
-    height: 300px;
+  #reinos {
+    width: 350px;
+    height: 200px;
   }
+#person{
+  width: auto;
+  height: 200px;
+}

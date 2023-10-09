@@ -7,12 +7,15 @@ import Reinoselector from './Componentes/ReinoSelector';
 function App() {
 
   return (
-    <BrowserRouter>
+    <h1>
+      <BrowserRouter>
       <Routes>
         <Route path='/' element={<Modo/>}></Route>
         <Route path='/seleccionar' element={<Reinoselector/>}></Route>
       </Routes>
     </BrowserRouter>
+    </h1>
+    
   )
 }
 
