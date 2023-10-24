@@ -328,5 +328,37 @@ export const characters = [
     fatalities:[' Knife to Meet You', 'Eat Your Heart Ou']
   },
   // CAMPEONES NETHERREALM
+  //----------------------------------------------------------------------------------------------------------
+  //CAMPEONES TITANIDES
+  {
+    id: 33,
+    name: "Kronika", // Nombre del personaje
+    image:"Kronika.jpg", // Imagen del personaje
+    realm: "Titanides", // Reino del personaje
+    strength: 1, // Fuerza del personaje
+    defense: 1, // Defensa del personaje
+    habilidades: ['Spear','Demon Fire', 'Teleport','Takedown '],
+    fatalities:['Split Decision','Nether-Gate']
+  },
+  {
+    id: 34,
+    name: "Geras", // Nombre del personaje
+    image:"Geras.jpg", // Imagen del personaje
+    realm: "Titanides", // Reino del personaje
+    strength: 1, // Fuerza del personaje
+    defense: 1, // Defensa del personaje
+    habilidades: ['Spear','Demon Fire', 'Teleport','Takedown '],
+    fatalities:['Split Decision','Nether-Gate']
+  },
+  {
+    id: 35,
+    name: "Cetrion", // Nombre del personaje
+    image:"Cetrion.jpg", // Imagen del personaje
+    realm: "Titanides", // Reino del personaje
+    strength: 1, // Fuerza del personaje
+    defense: 1, // Defensa del personaje
+    habilidades: ['Spear','Demon Fire', 'Teleport','Takedown '],
+    fatalities:['Split Decision','Nether-Gate']
+  },
 ];
 

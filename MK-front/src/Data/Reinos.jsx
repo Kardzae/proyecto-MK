@@ -17,7 +17,6 @@ export const reinos = [
   {
     id: 4,
     name: "Titanides",
-    image: "Titanides.jpg"
+    image: "titanides.jpg"
   }
-  // ...otros reinos
 ];
