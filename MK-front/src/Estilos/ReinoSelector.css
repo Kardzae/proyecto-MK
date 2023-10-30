@@ -58,6 +58,10 @@
   flex-wrap: wrap;
 }
 
+.selected-campeon{
+  color: #ff0000;
+}
+
 .realm-list2{
   columns: 3;
   list-style-type: none;

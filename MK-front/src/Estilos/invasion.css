@@ -94,12 +94,12 @@ ul.resultados-list li:hover {
   }
 
   #reinos {
-    width: 350px;
+    width: 250px;
     height: 200px;
   }
 
 .realm-list2{
-  columns: 3;
+  columns: 4;
   list-style-type: none;
   flex-wrap: wrap;
 }

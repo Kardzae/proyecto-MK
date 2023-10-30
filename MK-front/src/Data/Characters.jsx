@@ -6,8 +6,8 @@ export const characters = [
       name: "Kotal Kahn", // Nombre del personaje
       image:"Kotal Kahn.gif", // Imagen del personaje
       realm: "Outworld", // Reino del personaje
-      strength: 1, // Fuerza del personaje
-      defense: 1, // Defensa del personaje
+      strength: 3, // Fuerza del personaje
+      defense: 5, // Defensa del personaje
       habilidades: ['Spear','Demon Fire', 'Teleport','Takedown '],
       fatalities:['Split Decision','Nether-Gate']
     },
@@ -16,8 +16,8 @@ export const characters = [
       name: "Sindel",
       image:"sindel.gif",
       realm: "Outworld",
-      strength: 1, 
-      defense: 1, 
+      strength: 5, 
+      defense: 2, 
       habilidades:['Hair Whip','Step Up'],
       fatalities:['Migraine','Mouthful ']
     },
@@ -26,8 +26,8 @@ export const characters = [
       name: "Ermac",
       image:"ermac.gif",
       realm: "Outworld",
-      strength: 1, 
-      defense: 1,
+      strength: 2, 
+      defense: 5,
       habilidades:['Force Ball','Airblast'],
       fatalities:['Mind Over Splatter','Pest Control']
     },
@@ -36,7 +36,7 @@ export const characters = [
       name: "Reptile",
       image:"reptile.gif",
       realm: "Outworld",
-      strength: 1, 
+      strength: 5, 
       defense: 1,
       habilidades:['Sai Blast', 'Rolling Thunder', 'Teleport Kick'],
       fatalities:[' Acidic Taste', 'Weight Loss']
@@ -46,8 +46,8 @@ export const characters = [
       name: "Kitana",
       image:"Kitana.gif",
       realm: "Outworld",
-      strength: 1, 
-      defense: 1, 
+      strength: 4, 
+      defense: 2, 
       habilidades:['Fan Toss', 'Fan Lift', 'Square Boost'],
       fatalities:['Splitting Hairs', 'Dark Fan-Tasy']
     },
@@ -57,7 +57,7 @@ export const characters = [
       image:"jade.gif",
       realm: "Outworld",
       strength: 1, 
-      defense: 1,
+      defense: 5,
       habilidades:['Pole Vault','Deadly Assassin','Razor-Rang'],
       fatalities:['Head-A-Rang','Half Mast']
     },
@@ -77,7 +77,7 @@ export const characters = [
       image:"baraka.gif",
       realm: "Outworld",
       strength: 1, 
-      defense: 1,
+      defense: 3,
       habilidades:['Sparking Shiv','Blade Charge','Leg Kabob'],
       fatalities:['Up the Middle: Left','Take a Spin']
     },
@@ -86,7 +86,7 @@ export const characters = [
       name: "Sheva",
       image:"Sheeva.gif",
       realm: "Outworld",
-      strength: 1, 
+      strength: 5, 
       defense: 1 ,
       habilidades:['Up the Middle: Left','Take a Spin'],
       fatalities:['Stripped Down','Lend a Hand']
@@ -97,7 +97,7 @@ export const characters = [
       image:"shao_kahn.gif",
       realm: "Outworld",
       strength: 1, 
-      defense: 1 ,
+      defense: 5,
       habilidades:['Carga de Hombro','Hombro Levantador','Lanzamiento de Jabalina'],
       fatalities:['golpefinal','barrido de martillo']
     },
@@ -116,8 +116,8 @@ export const characters = [
       name: "Erron Black",
       image:"erron_black.gif",
       realm: "Outworld",
-      strength: 1, 
-      defense: 1 ,
+      strength: 2, 
+      defense: 5,
       habilidades:[' Sand Grenade', 'Sand Slide', 'Sand Trap'],
       fatalities:['Six-Shooter', 'Melted']
     },
@@ -169,8 +169,8 @@ export const characters = [
     name: "Sonya Blade",
     image: "sonya-blade.gif",
     realm: "Earthrealm",
-    strength: 1, 
-    defense: 1 ,
+    strength: 5, 
+    defense: 2,
     habilidades:[' Energy Rings', 'Leg Grab', 'Bicycle Kick'],
     fatalities:['Kiss of Death', 'Scissor Split4']
   },
@@ -179,8 +179,8 @@ export const characters = [
     name: "Smoke",
     image: "smoke.gif",
     realm: "Earthrealm",
-    strength: 1, 
-    defense: 1 ,
+    strength: 3, 
+    defense: 5,
     habilidades:[' Smoke Bomb', 'Spear', 'Teleport'],
     fatalities:[' Smoked Out', 'Tremor Time']
   },
@@ -199,8 +199,8 @@ export const characters = [
     name: "Nightwolf",
     image: "nightwolf.gif",
     realm: "Earthrealm",
-    strength: 1, 
-    defense: 1 ,
+    strength: 5, 
+    defense: 2,
     habilidades:['Tomahawk Swing', 'Shoulder Charge', 'Lightning Arrow'],
     fatalities:['Ascension', 'The Axe']
   },
@@ -219,8 +219,8 @@ export const characters = [
     name: "Cassie Cage",
     image: "cassie-cage.gif",
     realm: "Earthrealm",
-    strength: 1, 
-    defense: 1 ,
+    strength: 2, 
+    defense: 3,
     habilidades:['Dual Pistols', 'Air Akimbo', 'Low Gunshot'],
     fatalities:['Bubble Head', 'Selfie']
   },
@@ -229,8 +229,8 @@ export const characters = [
     name: "Jax",
     image: "jax.gif",
     realm: "Earthrealm",
-    strength: 1, 
-    defense: 1 ,
+    strength: 5, 
+    defense: 2,
     habilidades:['Energy Wave', 'Gotcha Grab', 'Ground Pound'],
     fatalities:[' Three Points', 'Still Got It']
   },
@@ -239,8 +239,8 @@ export const characters = [
     name: "Kenshi",
     image: "kenshi.gif",
     realm: "Earthrealm",
-    strength: 1, 
-    defense: 1 ,
+    strength: 3, 
+    defense: 5,
     habilidades:['Telekinetic Push', 'Telekinetic Slam', 'Telekinetic Toss'],
     fatalities:[' Split Ends', 'My Puppet']
   },
@@ -335,9 +335,9 @@ export const characters = [
     name: "Kronika", // Nombre del personaje
     image:"Kronika.jpg", // Imagen del personaje
     realm: "Titanides", // Reino del personaje
-    strength: 1, // Fuerza del personaje
-    defense: 1, // Defensa del personaje
-    habilidades: ['Spear','Demon Fire', 'Teleport','Takedown '],
+    strength: 5, // Fuerza del personaje
+    defense: 2, // Defensa del personaje
+    habilidades: ['Esfera de tiempo','Teletransportación', 'Rayo de energía de esfera de tiempo'],
     fatalities:['Split Decision','Nether-Gate']
   },
   {
@@ -345,10 +345,10 @@ export const characters = [
     name: "Geras", // Nombre del personaje
     image:"Geras.jpg", // Imagen del personaje
     realm: "Titanides", // Reino del personaje
-    strength: 1, // Fuerza del personaje
-    defense: 1, // Defensa del personaje
-    habilidades: ['Spear','Demon Fire', 'Teleport','Takedown '],
-    fatalities:['Split Decision','Nether-Gate']
+    strength: 3, // Fuerza del personaje
+    defense: 5, // Defensa del personaje
+    habilidades: ['Sand Trap','Quick Sand', 'Gauntlet of the Ages','Shifting Sands '],
+    fatalities:['Pequeño desperdicio']
   },
   {
     id: 35,
@@ -357,8 +357,8 @@ export const characters = [
     realm: "Titanides", // Reino del personaje
     strength: 1, // Fuerza del personaje
     defense: 1, // Defensa del personaje
-    habilidades: ['Spear','Demon Fire', 'Teleport','Takedown '],
-    fatalities:['Split Decision','Nether-Gate']
+    habilidades: ['Ring of Fire','Boulder Bash', 'Earthquake','Tendril Pull '],
+    fatalities:['Aniquilación divina']
   },
 ];
 
