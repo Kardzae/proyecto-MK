@@ -1,18 +1,18 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import '../Estilos/modo.css';
-import {useNavigate} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import Boton from './Boton';
 
 const Modo = () => {
-  const goPage = useNavigate();
-
-  function goPageSelector(){
-    goPage('/seleccionar');
-  }
-
   return (
     <div className="container-seleccion-juego">
-      <button id="torneo-button" onClick={goPageSelector}>Torneo</button>
-      <button id="invasion-button">Invasión</button>
+      <Link to="/seleccionar">
+        <Boton Nombre="Torneo"></Boton>
+      </Link>
+      <Link to="/Invasion">
+        <Boton Nombre="Invasion"></Boton>
+      </Link>
     </div>
   );
 }

@@ -1,7 +1,8 @@
 /* ReinoSelector.css */
-.container {
+.container1 {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-image: url('src/images/fondo_pagina_2.jpg');
   }
   
   h1 {
@@ -9,26 +10,31 @@
     margin-bottom: 16px;
   }
   
-  ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex; /* Cambia a un contenedor flexible */
-    justify-content: space-between; /* Espaciado uniforme entre los elementos */
-    flex-wrap: wrap; /* Envuelve los elementos en múltiples líneas si es necesario */
+  .Titulo {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: white;
   }
+
+  /* ul {
+    columns: 8;
+    list-style-type: none;
+    flex-wrap: wrap; 
+  } */
   
   li {
     cursor: pointer;
-    padding: 8px;
-    background-color: #b45656;
+    border-radius: 1px;
+    padding: 5px;
+    background-color: #d8d8d8;
     margin-bottom: 8px;
     transition: background-color 0.3s ease-in-out;
     flex: 1; /* Distribuye el espacio de manera uniforme */
-    margin-right: 20px; /* Espacio entre los elementos */
+    margin-right: 10px; /* Espacio entre los elementos */
   }
   
   li:hover {
-    background-color: #724213;
+    background-color: #EAD7BB;
   }
   
   .selected-reino {
@@ -36,7 +42,28 @@
     color: #ff0000; /* Color de texto seleccionado */
   }
 
-  img {
-    width: 450px;
-    height: 300px;
+  #reinos {
+    width: 350px;
+    height: 200px;
   }
+#person{
+  width: 185px;
+  height: 185px;
+}
+
+.character-list{
+  columns: 4;
+  margin-right: 10px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.selected-campeon{
+  color: #ff0000;
+}
+
+.realm-list2{
+  columns: 3;
+  list-style-type: none;
+  flex-wrap: wrap;
+}

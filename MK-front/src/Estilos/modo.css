@@ -1,9 +1,9 @@
 .container-seleccion-juego {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: url('src/images/fondoMK.png'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen de fondo */
+  align-items: flex-end;
+  height: 97vh;
+  background-image: url('src/images/mortalfond.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen de fondo */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -24,30 +24,6 @@
   background-color: white;
   color: black;
 }  
-
-#torneo-button{
-  background-color: #0074d9;
-  color: white;
-  padding: 10px 20px; 
-  border-radius: 5px;
-  font-size: 16px; 
-  cursor: pointer; 
-  border: none; 
-  outline: none; 
-  margin-right: 10px;
-}
-
-#invasion-button{
-  background-color: #0074d9;
-  color: white;
-  padding: 10px 20px; 
-  border-radius: 5px;
-  font-size: 16px; 
-  cursor: pointer; 
-  border: none; 
-  outline: none; 
-  margin-right: 10px;
-}
 
 
   
