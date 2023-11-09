@@ -13,6 +13,9 @@ const Modo = () => {
       <Link to="/Invasion">
         <Boton Nombre="Invasion"></Boton>
       </Link>
+      <Link to="/Lore">
+        <Boton Nombre="Historia o Lore"></Boton>
+      </Link>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Modo from './Componentes/Modojuego'
 import { Reinoselector } from './Componentes/ReinoSelector';
 import Invasion from './Componentes/Invasion';
-
+import CharactersLore from './Componentes/Personajelore';
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
         <Route path='/' element={<Modo/>}></Route>
         <Route path='/seleccionar' element={<Reinoselector/>}></Route>
         <Route path='/Invasion' element={<Invasion/>}></Route>
+        <Route path='/Lore' element={<CharactersLore/>}></Route>
       </Routes>
     </BrowserRouter>
     </h1>
